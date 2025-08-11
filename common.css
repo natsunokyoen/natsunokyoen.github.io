@@ -205,7 +205,7 @@ footer {
     background: rgb(0 0 0 / 80%);
     border-radius: 8px;
     font-size: xx-large;
-    position: relative;
+    position: absolute;
     top: min(60vh, 60vw);
     width: 100%;
     flex-shrink: 0;
@@ -226,6 +226,12 @@ footer {
     border-bottom: 2px solid var(--foreground-1);
     padding-bottom: 10px;
     margin-bottom: 20px;
+}
+
+.elem h3 {
+    color: var(--foreground-1);
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .elem p, .elem ul {

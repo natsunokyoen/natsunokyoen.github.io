@@ -1,5 +1,19 @@
 
 #first-elem {
-    background-image: url(about-background.png);
+    background-image: url(backgrounds/about.png);
 }
 
+#first-elem:before{
+    position: relative;
+    background: rgba(0,0,0,0.5);
+    content: "";
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#first-elem-title {
+    z-index:500;
+}
