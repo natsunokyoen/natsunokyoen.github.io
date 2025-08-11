@@ -1,5 +1,10 @@
 
 #first-elem {
-    background-image: url(about-background.png);
+    height: auto;
+}
+
+#first-elem-title {
+    background: transparent;
+    position: static;
 }
 

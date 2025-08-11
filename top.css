@@ -11,7 +11,7 @@ main {
 
 #first-elem {
     height: 100vh;
-    background-image: url(top-background.png);
+    background-image: url(backgrounds/top.png);
 }
 
 #first-elem-title {
