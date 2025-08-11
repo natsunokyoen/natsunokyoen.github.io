@@ -1,5 +1,26 @@
 
+header {
+    position: fixed;
+    top: 0px;
+}
+
+main {
+    position: relative;
+    top: 0px;
+}
+
 #first-elem {
+    height: 100vh;
     background-image: url(top-background.png);
+}
+
+#first-elem-title {
+    top: min(70vh, 70vw);
+}
+
+@media (max-width: 750px) {
+    #first-elem-title{
+        visibility: hidden;
+    }
 }
 

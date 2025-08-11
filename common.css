@@ -45,6 +45,11 @@ header {
     z-index: 1000;
 }
 
+#header-content {
+    margin: 0;
+    padding: 0;
+}
+
 #menu-triple-line {
     position: fixed;
     top: 0px;
@@ -80,7 +85,7 @@ footer {
 
 #first-elem {
     width: calc(100vw - var(--scr-width));
-    height: calc(100vh - 100px);
+    height: calc(100vh - 200px);
     padding: 0px 0px;
     margin: 0px 0px;
     background-position: center;
@@ -92,7 +97,7 @@ footer {
 #first-elem-title {
     background: rgb(0 0 0 / 80%);
     border-radius: 8px;
-    font-size: xxx-large;
+    font-size: xx-large;
     position: relative;
     top: min(60vh, 60vw);
     width: 100%;
