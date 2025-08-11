@@ -218,14 +218,19 @@ footer {
 .support-holizontal {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     padding: 0px;
     margin: 0px;
     list-style-type: none;
 }
 
-@media (max-width: 1500px) {
-  .support-holizontal {
+@media (max-width: 640px) {
+  #suppo-holi-2 {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1600px) {
+  #suppo-holi-5 {
     flex-direction: column;
   }
 }
@@ -237,7 +242,7 @@ footer {
 
 .support-holizontal li {
     background: transparent;
-    padding: 0px;
+    padding: 10px;
     margin: 0px;
 }
 
