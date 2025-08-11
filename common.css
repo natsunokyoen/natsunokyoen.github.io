@@ -228,6 +228,12 @@ footer {
     margin-bottom: 20px;
 }
 
+.elem h3 {
+    color: var(--foreground-1);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
 .elem p, .elem ul {
     line-height: 1.8;
 }
