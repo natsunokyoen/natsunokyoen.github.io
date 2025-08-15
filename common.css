@@ -1,7 +1,7 @@
 :root {
     --background-1: #050700;
     --foreground-1: #e6d1b1;
-    --scr-width: 15px;
+    --scr-width: 10px;
 }
 
 ::-webkit-scrollbar {
@@ -167,7 +167,6 @@ header {
 main {
     position: relative;
     top: -10px;
-    padding-top: 10px;
     padding-bottom: 50px;
 }
 
